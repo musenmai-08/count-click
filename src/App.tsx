@@ -36,10 +36,16 @@ function App() {
 
 			<h1>{count}</h1>
 
-			<button onClick={handleClick}>click!</button>
-			<button className="reset" onClick={resetGame}>
-				reset
-			</button>
+			<div>
+				<p>秒数を設定したら 「 click! 」 ボタンを連打しよう！</p>
+			</div>
+
+			<div>
+				<button onClick={handleClick}>click!</button>
+				<button className="reset" onClick={resetGame}>
+					reset
+				</button>
+			</div>
 		</div>
 	);
 }
